@@ -1,0 +1,9 @@
+[project]
+name = "Task Cli Project"
+version = "0.1.0"
+description = "A task cli tool for managing tasks"
+authors = [{ name = "Abhishek", email = "dovalabhi01@gmail.com" }]
+requires-python = ">=3.8"
+
+[project.scripts]
+task-cli = "taskcli.__main__:main"
