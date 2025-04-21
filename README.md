@@ -2,6 +2,7 @@
 
 A simple command-line tool to manage your tasks — add, update, delete, and track progress — stored in a local JSON file.
 
+Solution for the [roadmap.sh](https://roadmap.sh/projects/task-tracker) project
 ---
 ## Features
 It's a CLI based simple task tracker which lets users to:
@@ -51,7 +52,14 @@ task_tracker/
 │   │   ├── json_store.py         # Handles reading/writing tasks to a JSON file             
 ├── pyproject.toml                # To make it installable via pip
 ├── README.md
-    # Test cases for the application
+└── tests
+    ├── __init__.py
+    ├── __main__.py
+    ├── test_add.py
+    ├── test_delete.py
+    ├── test_list.py
+    ├── test_mark.py
+    └── test_update.py # Test cases for the application
 ```
 
 ## Requirements
